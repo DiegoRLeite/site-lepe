@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cursos | LEPE - UNICAMP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container header-content">
+        <h1 class="logo">LEPE</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="professores.html">Professores</a></li>
+                <li><a href="alunos.html">Alunos</a></li>
+                <li><a href="cursos.html" class="active">Cursos</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="page-banner">
+  <section class="course-carousel">
+    <div class="carousel-container">
+        <div class="carousel-slide active">
+            <img src="imagens/curso1.jpg" alt="Curso LEPE 1">
+        </div>
+        <div class="carousel-slide">
+            <img src="imagens/curso2.jpg" alt="Curso LEPE 2">
+        </div>
+        <div class="carousel-slide">
+            <img src="imagens/curso3.jpg" alt="Curso LEPE 3">
+        </div>
+    </div>
+</section>
+
+    <div class="container">
+        <h2>Formação e Capacitação</h2>
+        <p>O LEPE desenvolve e participa de atividades formativas voltadas à Pedagogia do Esporte e à qualificação profissional.</p>
+    </div>
+</section>
+
+
+<section class="content-section">
+    <div class="container">
+
+        <div class="section-title">
+            <h3>Cursos de Extensão</h3>
+            <div class="divider"></div>
+        </div>
+
+        <div class="card">
+            <h4>Pedagogia do Esporte: Iniciação Esportiva</h4>
+            <p>
+                Curso voltado à fundamentação teórica e prática da Pedagogia do Esporte aplicada à iniciação esportiva.
+                Aborda princípios didáticos, metodológicos e organizacionais do ensino-aprendizagem-treinamento.
+            </p>
+            <ul>
+                <li>Fundamentos da Pedagogia do Esporte</li>
+                <li>Ensino dos Jogos Coletivos de Invasão</li>
+                <li>Organização do Treinamento na Iniciação</li>
+                <li>Relação entre teoria do jogo e prática pedagógica</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h4>Formação de Treinadores e Treinadoras</h4>
+            <p>
+                Atividades formativas direcionadas ao desenvolvimento profissional de treinadores/as,
+                com foco na construção de competências pedagógicas, éticas e metodológicas.
+            </p>
+            <ul>
+                <li>Desenvolvimento de treinadores</li>
+                <li>Planejamento e organização pedagógica</li>
+                <li>Processos formativos no esporte</li>
+                <li>Dimensões sociais e culturais do treinamento</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h4>Workshops e Oficinas Temáticas</h4>
+            <p>
+                Encontros práticos e reflexivos sobre temas emergentes na área da Educação Física e do Esporte.
+            </p>
+            <ul>
+                <li>Pedagogia do Jogo</li>
+                <li>Epistemologia da prática esportiva</li>
+                <li>Inclusão e diversidade no esporte</li>
+                <li>Metodologias contemporâneas de ensino-treino</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h4>Atuação na Pós-Graduação</h4>
+            <p>
+                O LEPE contribui com disciplinas, orientação de pesquisas e projetos no âmbito do
+                Programa de Pós-Graduação em Educação Física da UNICAMP (Mestrado e Doutorado),
+                fortalecendo a produção científica na área da Pedagogia do Esporte.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="container footer-content">
+        <p>© 2026 LEPE - Laboratório de Estudos em Pedagogia do Esporte | FCA - UNICAMP</p>
+    </div>
+</footer>
+<script>
+let slides = document.querySelectorAll(".carousel-slide");
+let index = 0;
+
+function showSlide() {
+    slides.forEach(slide => slide.classList.remove("active"));
+    slides[index].classList.add("active");
+    index = (index + 1) % slides.length;
+}
+
+setInterval(showSlide, 4000);
+</script>
+
+</body>
+</html>

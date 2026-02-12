@@ -1,0 +1,106 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": {
+        "019fce0c28ee437496db0946811ba4eb": [
+          "pontos",
+          0
+        ],
+        "5e2cb99c86e041da89db1276da709c1f": [
+          "vidas",
+          3
+        ],
+        "771abe97eee3451286c4d2a084389eb0": [
+          "iniciado",
+          0
+        ]
+      },
+      "lists": {
+        "4bad3e60c42e4fbc85070ff26a078911": [
+          "eventos",
+          []
+        ]
+      },
+      "broadcasts": {},
+      "blocks": {},
+      "currentCostume": 0,
+      "costumes": [],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "textToSpeechLanguage": null
+    },
+    {
+      "isStage": false,
+      "name": "Robô",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {},
+      "currentCostume": 0,
+      "costumes": [],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 1,
+      "visible": true,
+      "x": -150,
+      "y": 0,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Inimigo",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {},
+      "currentCostume": 0,
+      "costumes": [],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 2,
+      "visible": true,
+      "x": 150,
+      "y": 0,
+      "size": 100,
+      "direction": -90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    },
+    {
+      "isStage": false,
+      "name": "Instruções",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {},
+      "currentCostume": 0,
+      "costumes": [],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "visible": true,
+      "x": 0,
+      "y": 140,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around"
+    }
+  ],
+  "monitors": [],
+  "extensions": [],
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0",
+    "agent": "ChatGPT Scratch Export"
+  }
+}
