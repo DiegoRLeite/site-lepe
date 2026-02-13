@@ -394,3 +394,40 @@ footer {
     opacity: 1;
 }
 
+@media (max-width: 600px) {
+
+  .hero {
+    height: 300px;
+  }
+
+  .hero-overlay {
+    padding: 20px;
+  }
+
+  .hero-overlay h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .grid-3 {
+    gap: 15px;
+  }
+
+  section {
+    padding: 25px 0;
+  }
+
+  nav ul {
+    gap: 10px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+}
+
+
+
